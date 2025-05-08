@@ -23,6 +23,7 @@ target_link_libraries(Squential_Module ${OpenCV_LIBS})
 add_executable(OpenMP_Module OpenMP_Module.cpp)
 target_link_libraries(OpenMP_Module ${OpenCV_LIBS} OpenMP::OpenMP_CXX)
 
+# 4. Full Demo or Combined Program
 add_executable(Parallel_Background_Subtraction main.cpp)
 target_link_libraries(Parallel_Background_Subtraction
     ${OpenCV_LIBS}

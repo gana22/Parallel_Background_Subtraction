@@ -14,8 +14,8 @@ int main(int argc, char* argv[]) {
 
     // File paths
     string video_path = argv[1];
-    string foreground_output_path = "Output_Video/foreground_output.mp4";
-    string background_output_path = "Output_Video/final_background.png";
+    string foreground_output_path = "Output_Video/foreground_output_Sequential.mp4";
+    string background_output_path = "Output_Video/final_background_Sequential.png";
 
     // Open input video
     VideoCapture cap;

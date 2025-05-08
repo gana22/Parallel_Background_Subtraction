@@ -33,9 +33,9 @@ while true; do
       ./cmake-build-debug/OpenMP_Module.exe "$video_path"
       ;;
 #    3)
-#      echo "Running MPI_Median.exe with $num_procs processors..."
+#      echo "Running MPI_Module.exe with $num_procs processors..."
 #      export OPENCV_LOG_LEVEL=SILENT
-#      mpiexec -n "$num_procs" ./cmake-build-debug/MPI_Median.exe "$video_path"
+#      mpiexec -n "$num_procs" ./cmake-build-debug/MPI_Module.exe "$video_path"
 #      ;;
     0)
       echo "Exiting..."
