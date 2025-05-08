@@ -45,11 +45,4 @@ while true; do
       echo "Invalid choice."
       ;;
   esac
-
-#  echo
-#  read -p "Do you want to run another method on the same video? (y/n): " repeat
-#  if [[ "$repeat" != "y" && "$repeat" != "Y" ]]; then
-#    echo "Goodbye!"
-#    break
-#  fi
 done

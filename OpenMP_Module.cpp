@@ -15,17 +15,11 @@ int main(int argc, char* argv[]) {
     int threshold_value = 25;           // threshold to ignore small noise
 
     // Get number of available threads
-
-    string video_path = argv[1];
     int num_threads = omp_get_max_threads(); // reads from OMP_NUM_THREADS
     cout << "Running with " << num_threads << " threads.\n";
 
-
-    // int max_threads = omp_get_max_threads();
-    // cout << "Using OpenMP with " << max_threads << " threads" << endl;
-    //
     // // File paths
-    // string video_path = "Input_Video/input_vtest.avi";
+    string video_path = argv[1];
     string foreground_output_path = "Output_Video/foreground_output1.mp4";
     string background_output_path = "Output_Video/final_background1.png";
 

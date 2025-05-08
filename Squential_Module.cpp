@@ -14,8 +14,8 @@ int main(int argc, char* argv[]) {
 
     // File paths
     string video_path = argv[1];
-    string foreground_output_path = "Output_Video/foreground_output1.mp4";
-    string background_output_path = "Output_Video/final_background1.png";
+    string foreground_output_path = "Output_Video/foreground_output.mp4";
+    string background_output_path = "Output_Video/final_background.png";
 
     // Open input video
     VideoCapture cap;
@@ -65,8 +65,6 @@ int main(int argc, char* argv[]) {
             }
         }
         gray_frames.push_back(gray);
-
-        // gray_frames.push_back(gray.clone());
     }
 
     cap.release();  // Release video capture after reading all frames
