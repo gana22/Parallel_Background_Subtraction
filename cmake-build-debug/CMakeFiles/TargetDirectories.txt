@@ -1,5 +1,6 @@
-C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Squential_Module.dir
-C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/OpenMP_Module.dir
-C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Parallel_Background_Subtraction.dir
-C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Squential_Module.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/OpenMP_Module.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/MPI_Module.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Parallel_Background_Subtraction.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir

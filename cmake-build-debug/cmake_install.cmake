@@ -1,4 +1,4 @@
-# Install script for directory: C:/Mine/GitHub/Parallel_Background_Subtraction
+# Install script for directory: C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,6 +47,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/SCH 2/Desktop/Gana's app/gana's work/HPC/final_project/Parallel_Background_Subtraction/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
