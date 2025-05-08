@@ -15,6 +15,14 @@ find_package(MPI REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(${MPI_INCLUDE_PATH})
 
+# 1. Sequential Median
+add_executable(Squential_Module Squential_Module.cpp)
+target_link_libraries(Squential_Module ${OpenCV_LIBS})
+
+# 2. OpenMP Median
+add_executable(OpenMP_Module OpenMP_Module.cpp)
+target_link_libraries(OpenMP_Module ${OpenCV_LIBS} OpenMP::OpenMP_CXX)
+
 add_executable(Parallel_Background_Subtraction main.cpp)
 target_link_libraries(Parallel_Background_Subtraction
     ${OpenCV_LIBS}
