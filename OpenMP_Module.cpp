@@ -131,7 +131,9 @@ int main(int argc, char* argv[]) {
 
     double end_time = omp_get_wtime();
     double duration_time = end_time - start_time;
-    cout << "The duration of this process is: " << duration_time << " seconds" << endl;
+    cout << "\033[36m"; // Set text color to cyan
+    cout << "The duration of this process is: " << duration_time << " seconds";
+    cout << "\033[0m" << endl; // Reset to default color
 
     // Save the final background image
     imwrite(background_output_path, background);

@@ -113,7 +113,9 @@ int main(int argc, char* argv[]) {
     }
     auto end = high_resolution_clock::now();
     duration<double> duration = end - start;
-    cout << "Frame processing time: " << duration.count() << " seconds" << endl;
+    cout << "\033[36m"; // Set text color to cyan
+    cout << "The duration of this process is: " << duration.count() << " seconds";
+    cout << "\033[0m" << endl; // Reset to default color
 
     // Save the final background image
     imwrite(background_output_path, background);

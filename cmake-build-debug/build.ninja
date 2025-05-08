@@ -165,7 +165,43 @@ build CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj: CXX_COMPILER_
   TARGET_PDB = Parallel_Background_Subtraction.pdb
   dyndep = CMakeFiles/Parallel_Background_Subtraction.dir/CXX.dd
 
-build CMakeFiles\Parallel_Background_Subtraction.dir\CXX.dd | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Parallel_Background_Subtraction.dir\CXXModules.json CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj.modmap: CXX_DYNDEP__Parallel_Background_Subtraction_Debug CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj.ddi | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Parallel_Background_Subtraction.dir\CXXDependInfo.json
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.ddi: CXX_SCAN__Parallel_Background_Subtraction_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Failure_Trials\Sequential_Base.cpp || cmake_object_order_depends_target_Parallel_Background_Subtraction
+  DEP_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -external:IC:\tools\opencv\build\include -external:IC:\MPI\SDK\Include -external:W0
+  OBJ_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.ddi.i
+
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj: CXX_COMPILER__Parallel_Background_Subtraction_scanned_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Failure_Trials\Sequential_Base.cpp | CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.modmap || cmake_object_order_depends_target_Parallel_Background_Subtraction CMakeFiles\Parallel_Background_Subtraction.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -external:IC:\tools\opencv\build\include -external:IC:\MPI\SDK\Include -external:W0
+  OBJECT_DIR = CMakeFiles\Parallel_Background_Subtraction.dir
+  OBJECT_FILE_DIR = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials
+  TARGET_COMPILE_PDB = CMakeFiles\Parallel_Background_Subtraction.dir\
+  TARGET_PDB = Parallel_Background_Subtraction.pdb
+  dyndep = CMakeFiles/Parallel_Background_Subtraction.dir/CXX.dd
+
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.ddi: CXX_SCAN__Parallel_Background_Subtraction_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Failure_Trials\Sequentail_Mean.cpp || cmake_object_order_depends_target_Parallel_Background_Subtraction
+  DEP_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -external:IC:\tools\opencv\build\include -external:IC:\MPI\SDK\Include -external:W0
+  OBJ_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.ddi.i
+
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj: CXX_COMPILER__Parallel_Background_Subtraction_scanned_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Failure_Trials\Sequentail_Mean.cpp | CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.modmap || cmake_object_order_depends_target_Parallel_Background_Subtraction CMakeFiles\Parallel_Background_Subtraction.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -external:IC:\tools\opencv\build\include -external:IC:\MPI\SDK\Include -external:W0
+  OBJECT_DIR = CMakeFiles\Parallel_Background_Subtraction.dir
+  OBJECT_FILE_DIR = CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials
+  TARGET_COMPILE_PDB = CMakeFiles\Parallel_Background_Subtraction.dir\
+  TARGET_PDB = Parallel_Background_Subtraction.pdb
+  dyndep = CMakeFiles/Parallel_Background_Subtraction.dir/CXX.dd
+
+build CMakeFiles\Parallel_Background_Subtraction.dir\CXX.dd | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Parallel_Background_Subtraction.dir\CXXModules.json CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj.modmap CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.modmap CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.modmap: CXX_DYNDEP__Parallel_Background_Subtraction_Debug CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj.ddi CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj.ddi CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj.ddi | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Parallel_Background_Subtraction.dir\CXXDependInfo.json
 
 
 # =============================================================================
@@ -175,7 +211,7 @@ build CMakeFiles\Parallel_Background_Subtraction.dir\CXX.dd | C$:\Mine\GitHub\Pa
 #############################################
 # Link the executable Parallel_Background_Subtraction.exe
 
-build Parallel_Background_Subtraction.exe: CXX_EXECUTABLE_LINKER__Parallel_Background_Subtraction_Debug CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj | C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\MPI\SDK\Lib\x64\msmpi.lib
+build Parallel_Background_Subtraction.exe: CXX_EXECUTABLE_LINKER__Parallel_Background_Subtraction_Debug CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj | C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\MPI\SDK\Lib\x64\msmpi.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\MPI\SDK\Lib\x64\msmpi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
