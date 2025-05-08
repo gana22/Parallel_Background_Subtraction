@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "Parallel_Background_Subtraction",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -38,9 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "OpenMP_Module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP_Module-Debug-3bec8abb24796d2f6a1c.json",
+					"name" : "OpenMP_Module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Parallel_Background_Subtraction::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Parallel_Background_Subtraction-Debug-e9cbd30917ea66f92811.json",
+					"jsonFile" : "target-Parallel_Background_Subtraction-Debug-1dbc92040b96e9b7fd37.json",
 					"name" : "Parallel_Background_Subtraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Squential_Module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Squential_Module-Debug-82c8f08a13fb1aa7ebb6.json",
+					"name" : "Squential_Module",
 					"projectIndex" : 0
 				}
 			]

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Parallel_Background_Subtraction.dir\\main.cpp.obj",
+            "outputs": [
+                "C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\Parallel_Background_Subtraction.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

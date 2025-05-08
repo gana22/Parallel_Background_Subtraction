@@ -1,3 +1,5 @@
+C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Squential_Module.dir
+C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/OpenMP_Module.dir
 C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Parallel_Background_Subtraction.dir
 C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir

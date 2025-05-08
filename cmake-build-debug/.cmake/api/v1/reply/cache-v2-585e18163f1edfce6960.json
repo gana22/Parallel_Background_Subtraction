@@ -1166,6 +1166,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Executable for running MPI programs."
 				}
@@ -1519,7 +1523,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "TRUE"
+			"value" : "FALSE"
 		},
 		{
 			"name" : "MPI_RESULT_CXX_test_mpi_normal",

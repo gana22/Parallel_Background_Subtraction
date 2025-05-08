@@ -41,6 +41,104 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\
 # =============================================================================
+# Object build statements for EXECUTABLE target Squential_Module
+
+
+#############################################
+# Order-only phony target for Squential_Module
+
+build cmake_object_order_depends_target_Squential_Module: phony || .
+
+build CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.ddi: CXX_SCAN__Squential_Module_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Squential_Module.cpp || cmake_object_order_depends_target_Squential_Module
+  DEP_FILE = CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IC:\MPI\SDK\Include -external:IC:\tools\opencv\build\include -external:W0
+  OBJ_FILE = CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.ddi.i
+
+build CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj: CXX_COMPILER__Squential_Module_scanned_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\Squential_Module.cpp | CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.modmap || cmake_object_order_depends_target_Squential_Module CMakeFiles\Squential_Module.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IC:\MPI\SDK\Include -external:IC:\tools\opencv\build\include -external:W0
+  OBJECT_DIR = CMakeFiles\Squential_Module.dir
+  OBJECT_FILE_DIR = CMakeFiles\Squential_Module.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Squential_Module.dir\
+  TARGET_PDB = Squential_Module.pdb
+  dyndep = CMakeFiles/Squential_Module.dir/CXX.dd
+
+build CMakeFiles\Squential_Module.dir\CXX.dd | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Squential_Module.dir\CXXModules.json CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.modmap: CXX_DYNDEP__Squential_Module_Debug CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj.ddi | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\Squential_Module.dir\CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Squential_Module
+
+
+#############################################
+# Link the executable Squential_Module.exe
+
+build Squential_Module.exe: CXX_EXECUTABLE_LINKER__Squential_Module_Debug CMakeFiles\Squential_Module.dir\Squential_Module.cpp.obj | C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\Squential_Module.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Squential_Module.dir\
+  TARGET_FILE = Squential_Module.exe
+  TARGET_IMPLIB = Squential_Module.lib
+  TARGET_PDB = Squential_Module.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OpenMP_Module
+
+
+#############################################
+# Order-only phony target for OpenMP_Module
+
+build cmake_object_order_depends_target_OpenMP_Module: phony || .
+
+build CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.ddi: CXX_SCAN__OpenMP_Module_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\OpenMP_Module.cpp || cmake_object_order_depends_target_OpenMP_Module
+  DEP_FILE = CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -IC:\MPI\SDK\Include -external:IC:\tools\opencv\build\include -external:W0
+  OBJ_FILE = CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.ddi.i
+
+build CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj: CXX_COMPILER__OpenMP_Module_scanned_Debug C$:\Mine\GitHub\Parallel_Background_Subtraction\OpenMP_Module.cpp | CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.modmap || cmake_object_order_depends_target_OpenMP_Module CMakeFiles\OpenMP_Module.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi -openmp
+  INCLUDES = -IC:\MPI\SDK\Include -external:IC:\tools\opencv\build\include -external:W0
+  OBJECT_DIR = CMakeFiles\OpenMP_Module.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenMP_Module.dir
+  TARGET_COMPILE_PDB = CMakeFiles\OpenMP_Module.dir\
+  TARGET_PDB = OpenMP_Module.pdb
+  dyndep = CMakeFiles/OpenMP_Module.dir/CXX.dd
+
+build CMakeFiles\OpenMP_Module.dir\CXX.dd | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\OpenMP_Module.dir\CXXModules.json CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.modmap: CXX_DYNDEP__OpenMP_Module_Debug CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj.ddi | C$:\Mine\GitHub\Parallel_Background_Subtraction\cmake-build-debug\CMakeFiles\OpenMP_Module.dir\CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OpenMP_Module
+
+
+#############################################
+# Link the executable OpenMP_Module.exe
+
+build OpenMP_Module.exe: CXX_EXECUTABLE_LINKER__OpenMP_Module_Debug CMakeFiles\OpenMP_Module.dir\OpenMP_Module.cpp.obj | C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib C$:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  C:\tools\opencv\build\x64\vc16\lib\opencv_world4110d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\OpenMP_Module.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\OpenMP_Module.dir\
+  TARGET_FILE = OpenMP_Module.exe
+  TARGET_IMPLIB = OpenMP_Module.lib
+  TARGET_PDB = OpenMP_Module.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Parallel_Background_Subtraction
 
 
@@ -115,7 +213,11 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build OpenMP_Module: phony OpenMP_Module.exe
+
 build Parallel_Background_Subtraction: phony Parallel_Background_Subtraction.exe
+
+build Squential_Module: phony Squential_Module.exe
 
 # =============================================================================
 # Folder targets.
@@ -125,7 +227,7 @@ build Parallel_Background_Subtraction: phony Parallel_Background_Subtraction.exe
 #############################################
 # Folder: C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug
 
-build all: phony Parallel_Background_Subtraction.exe
+build all: phony Squential_Module.exe OpenMP_Module.exe Parallel_Background_Subtraction.exe
 
 # =============================================================================
 # Built-in targets

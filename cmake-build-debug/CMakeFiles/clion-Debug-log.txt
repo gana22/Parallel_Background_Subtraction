@@ -2,15 +2,8 @@
 -- OpenCV ARCH: x64
 -- OpenCV RUNTIME: vc16
 -- OpenCV STATIC: OFF
--- Found OpenCV: C:/tools/opencv/build (found version "4.11.0")
 -- Found OpenCV 4.11.0 in C:/tools/opencv/build/x64/vc16/lib
 -- You might need to add C:\tools\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
--- Found OpenMP_C: -openmp (found version "2.0")
--- Found OpenMP_CXX: -openmp (found version "2.0")
--- Found OpenMP: TRUE (found version "2.0")
--- Found MPI_C: C:/MPI/SDK/Lib/x64/msmpi.lib (found version "2.0")
--- Found MPI_CXX: C:/MPI/SDK/Lib/x64/msmpi.lib (found version "2.0")
--- Found MPI: TRUE (found version "2.0")
--- Configuring done (5.5s)
--- Generating done (0.0s)
+-- Configuring done (6.4s)
+-- Generating done (0.1s)
 -- Build files have been written to: C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug

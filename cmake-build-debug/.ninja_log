@@ -1,0 +1,19 @@
+# ninja log v6
+42	405	7684282370957523	CMakeFiles/Parallel_Background_Subtraction.dir/main.cpp.obj.ddi	1d1194603c2b4303
+406	806	7684282378032398	CMakeFiles/Parallel_Background_Subtraction.dir/CXX.dd	e54e01986d8c5737
+406	806	7684282378032398	C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Parallel_Background_Subtraction.dir/CXXModules.json	e54e01986d8c5737
+406	806	7684282378032398	CMakeFiles/Parallel_Background_Subtraction.dir/main.cpp.obj.modmap	e54e01986d8c5737
+815	1054	7684282378689547	CMakeFiles/Parallel_Background_Subtraction.dir/main.cpp.obj	cfdc21ee55f46ae7
+1054	1550	7684282381077872	Parallel_Background_Subtraction.exe	99f4a15087d7acb2
+4	916	7684282477066054	CMakeFiles/OpenMP_Module.dir/OpenMP_Module.cpp.obj.ddi	5a19169264f69a12
+981	1701	7684282493970036	CMakeFiles/OpenMP_Module.dir/CXX.dd	709efca907f0c928
+981	1701	7684282493970036	C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/OpenMP_Module.dir/CXXModules.json	709efca907f0c928
+981	1701	7684282493970036	CMakeFiles/OpenMP_Module.dir/OpenMP_Module.cpp.obj.modmap	709efca907f0c928
+1713	4675	7684282494154546	CMakeFiles/OpenMP_Module.dir/OpenMP_Module.cpp.obj	7d2575e24982e33
+4675	5226	7684282523772777	OpenMP_Module.exe	b77a62a677da5892
+2	236	7684282577155622	CMakeFiles/Squential_Module.dir/Squential_Module.cpp.obj.ddi	ec978b468934b363
+237	323	7684282580307600	CMakeFiles/Squential_Module.dir/CXX.dd	b0b0c191f56b4228
+237	323	7684282580307600	C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Squential_Module.dir/CXXModules.json	b0b0c191f56b4228
+237	323	7684282580307600	CMakeFiles/Squential_Module.dir/Squential_Module.cpp.obj.modmap	b0b0c191f56b4228
+330	2795	7684282580439201	CMakeFiles/Squential_Module.dir/Squential_Module.cpp.obj	6a0a68b954ffa0c5
+2795	3304	7684282605073063	Squential_Module.exe	e75c107ecdec29b9
