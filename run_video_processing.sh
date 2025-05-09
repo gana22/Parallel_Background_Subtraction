@@ -28,7 +28,7 @@ while true; do
   echo -e "${BOLD}${CYAN}🔧 Choose Execution Method:${NC}"
   echo -e "      ${GREEN}[1]${NC} Sequential Method"
   echo -e "      ${GREEN}[2]${NC} OpenMP Method"
-# echo -e "      ${GREEN}[3]${NC} MPI Method"
+ echo -e "      ${GREEN}[3]${NC} MPI Method"
   echo -e "      ${GREEN}[0]${NC} Exit"
   echo -e "${BLUE}=============================================${NC}"
   read -p "$(echo -e "${YELLOW}Your choice:${NC} ")" method
@@ -41,9 +41,9 @@ while true; do
   fi
 
 # Handle MPI input (optional)
-# if [ "$method" -eq 3 ]; then
-#   read -p "$(echo -e "${YELLOW}🔢 Enter number of MPI processors:${NC} ")" num_procs
-# fi
+ if [ "$method" -eq 3 ]; then
+   read -p "$(echo -e "${YELLOW}🔢 Enter number of MPI processors:${NC} ")" num_procs
+ fi
 
   # Execute based on user's choice
   case $method in
@@ -59,11 +59,11 @@ while true; do
       ./cmake-build-debug/OpenMP_Module.exe "$video_path"
       ;;
 
-#   3)
-#     echo -e "${GREEN}🚀 Running MPI_Module.exe with ${num_procs} processors...${NC}"
-#     export OPENCV_LOG_LEVEL=SILENT
-#     mpiexec -n "$num_procs" ./cmake-build-debug/MPI_Module.exe "$video_path"
-#     ;;
+   3)
+     echo -e "${GREEN}🚀 Running MPI_Module.exe with ${num_procs} processors...${NC}"
+     export OPENCV_LOG_LEVEL=SILENT
+     mpiexec -n "$num_procs" ./cmake-build-debug/MPI_Module.exe "$video_path"
+     ;;
 
     0)
       # Show exit message and wait for user input before breaking

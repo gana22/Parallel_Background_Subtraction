@@ -31,7 +31,7 @@ set(CMAKE_CXX_COMPILER_RANLIB "")
 set(CMAKE_LINKER "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe")
 set(CMAKE_LINKER_LINK "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe")
 set(CMAKE_LINKER_LLD "lld-link")
-set(CMAKE_CXX_COMPILER_LINKER "C:/PROGRA~2/MICROS~3/2022/BUILDT~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe")
+set(CMAKE_CXX_COMPILER_LINKER "C:/PROGRA~2/MICROS~2/2022/BUILDT~1/VC/Tools/MSVC/1443~1.348/bin/Hostx64/x64/link.exe")
 set(CMAKE_CXX_COMPILER_LINKER_ID "MSVC")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION 14.43.34810.0)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT MSVC)
@@ -95,7 +95,7 @@ set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 
 set(CMAKE_CXX_COMPILER_IMPORT_STD "")
 ### Imported target for C++23 standard library
-set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Unsupported generator: NMake Makefiles")
+set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Experimental `import std` support not enabled when detecting toolchain; it must be set before `CXX` is enabled (usually a `project()` call)")
 
 
 

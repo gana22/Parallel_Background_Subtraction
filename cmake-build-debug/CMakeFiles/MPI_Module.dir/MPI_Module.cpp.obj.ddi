@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\MPI_Module.dir\\MPI_Module.cpp.obj",
+            "outputs": [
+                "C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\MPI_Module.dir\\MPI_Module.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
