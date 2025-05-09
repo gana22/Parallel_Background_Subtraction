@@ -1,3 +1,7 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles\Parallel_Background_Subtraction.dir\main.cpp.obj: dyndep
 
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequentail_Mean.cpp.obj: dyndep
+
+build CMakeFiles\Parallel_Background_Subtraction.dir\Failure_Trials\Sequential_Base.cpp.obj: dyndep
+

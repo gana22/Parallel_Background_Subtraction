@@ -395,3 +395,88 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odfzkt"
+      binary: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odfzkt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-odfzkt'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_634b5
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo  -external:IC:\\MPI\\SDK\\Include -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_634b5.dir\\test_mpi.c.obj /FdCMakeFiles\\cmTC_634b5.dir\\ /FS -c C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-odfzkt\\test_mpi.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_634b5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_634b5.dir\\test_mpi.c.obj  /out:cmTC_634b5.exe /implib:cmTC_634b5.lib /pdb:cmTC_634b5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  C:\\MPI\\SDK\\Lib\\x64\\msmpi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w7n1ps"
+      binary: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w7n1ps"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w7n1ps'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_639c1
+        [1/4] C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  -external:IC:\\MPI\\SDK\\Include -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-w7n1ps\\test_mpi.cpp -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_639c1.dir\\test_mpi.cpp.obj.ddi -FoCMakeFiles\\cmTC_639c1.dir\\test_mpi.cpp.obj
+        [2/4] "C:\\Program Files\\JetBrains\\CLion 2024.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_639c1.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_639c1.dir\\CXX.dd @CMakeFiles\\cmTC_639c1.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\MPI\\SDK\\Include -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi /showIncludes @CMakeFiles\\cmTC_639c1.dir\\test_mpi.cpp.obj.modmap /FoCMakeFiles\\cmTC_639c1.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_639c1.dir\\ /FS -c C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-w7n1ps\\test_mpi.cpp
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_639c1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_639c1.dir\\test_mpi.cpp.obj  /out:cmTC_639c1.exe /implib:cmTC_639c1.lib /pdb:cmTC_639c1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  C:\\MPI\\SDK\\Lib\\x64\\msmpi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:12 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-txfzfm"
+      binary: "C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-txfzfm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-txfzfm'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_769fe
+        [1/4] C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  -external:IC:\\MPI\\SDK\\Include -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-txfzfm\\test_mpi.cpp -nologo -TP -showIncludes -scanDependencies CMakeFiles\\cmTC_769fe.dir\\test_mpi.cpp.obj.ddi -FoCMakeFiles\\cmTC_769fe.dir\\test_mpi.cpp.obj
+        [2/4] "C:\\Program Files\\JetBrains\\CLion 2024.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_769fe.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=CMakeFiles\\cmTC_769fe.dir\\CXX.dd @CMakeFiles\\cmTC_769fe.dir\\CXX.dd.rsp
+        [3/4] C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -external:IC:\\MPI\\SDK\\Include -external:W0 /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi /showIncludes @CMakeFiles\\cmTC_769fe.dir\\test_mpi.cpp.obj.modmap /FoCMakeFiles\\cmTC_769fe.dir\\test_mpi.cpp.obj /FdCMakeFiles\\cmTC_769fe.dir\\ /FS -c C:\\Mine\\GitHub\\Parallel_Background_Subtraction\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-txfzfm\\test_mpi.cpp
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_769fe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1443~1.348\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_769fe.dir\\test_mpi.cpp.obj  /out:cmTC_769fe.exe /implib:cmTC_769fe.lib /pdb:cmTC_769fe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  C:\\MPI\\SDK\\Lib\\x64\\msmpi.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

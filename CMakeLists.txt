@@ -28,7 +28,11 @@ add_executable(MPI_Module MPI_Module.cpp)
 target_link_libraries(MPI_Module ${OpenCV_LIBS} MPI::MPI_CXX)
 
 # 4. Full Demo or Combined Program
-add_executable(Parallel_Background_Subtraction main.cpp)
+add_executable(Parallel_Background_Subtraction
+        main.cpp
+        Failure_Trials/Sequentail_Mean.cpp
+        Failure_Trials/Sequential_Base.cpp
+)
 target_link_libraries(Parallel_Background_Subtraction
     ${OpenCV_LIBS}
     OpenMP::OpenMP_CXX
