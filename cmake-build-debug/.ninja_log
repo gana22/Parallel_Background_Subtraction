@@ -82,3 +82,13 @@
 299	349	7684537156437832	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequential_Base.cpp.obj.modmap	ace8847a55e0c4ed
 350	7417	7684537156957685	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequentail_Mean.cpp.obj	a28dc63ee6939203
 7417	7777	7684537227623154	Parallel_Background_Subtraction.exe	c3dbb79d102460b8
+12	116	7684539530345981	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequentail_Mean.cpp.obj.ddi	1a3d08720052dc32
+24	304	7684539530452267	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequential_Base.cpp.obj.ddi	7e5a608c88b769aa
+304	341	7684539533264129	CMakeFiles/Parallel_Background_Subtraction.dir/CXX.dd	ace8847a55e0c4ed
+304	341	7684539533264129	C:/Mine/GitHub/Parallel_Background_Subtraction/cmake-build-debug/CMakeFiles/Parallel_Background_Subtraction.dir/CXXModules.json	ace8847a55e0c4ed
+304	341	7684539533264129	CMakeFiles/Parallel_Background_Subtraction.dir/main.cpp.obj.modmap	ace8847a55e0c4ed
+304	341	7684539533264129	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequentail_Mean.cpp.obj.modmap	ace8847a55e0c4ed
+304	341	7684539533264129	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequential_Base.cpp.obj.modmap	ace8847a55e0c4ed
+343	507	7684539533648365	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequentail_Mean.cpp.obj	a28dc63ee6939203
+346	3877	7684539533679548	CMakeFiles/Parallel_Background_Subtraction.dir/Failure_Trials/Sequential_Base.cpp.obj	389d9b3428de2de3
+3878	4251	7684539568998784	Parallel_Background_Subtraction.exe	c3dbb79d102460b8
